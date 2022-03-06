@@ -1,4 +1,4 @@
-# rust 学习
+# rust 学习 --- 进度3.3
 缺点：难学？
 入门视频（白嫖）：https://www.bilibili.com/video/BV1hp4y1k7SV?spm_id_from=333.337.search-card.all.click
 基础入门课程
@@ -55,4 +55,25 @@ pritln!("变量 {}{}",a,b)
 
 随机数库： rand
 
+loop 循环关键词
+
 常见问题，跟新Cargo.toml后，执行cargo buid/run 没有下载更新依赖包，<https://blog.csdn.net/duapple/article/details/105512402>
+
+3.1 变量和可变性
+let mut
+常量不可变const 声明所有字母大小
+- 隐藏 后续替换前面同名变量，类型合一和以前的不一样
+
+3.2 数据类型
+- 标量类型
+  - 整数  75u8
+    - 有符号 u8
+    - 没有符号 i8
+    - isize/usize
+    - 整数益处
+  - 浮点 IEEE - 754
+    - f32 单精度
+    - f64 双精度
+  - boolean 占用一个字节大小
+  - 字符类型 char
+- 复合类型
