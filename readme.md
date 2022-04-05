@@ -1,4 +1,4 @@
-# rust 学习 --- 进度3.3
+# rust 学习 --- 进度4.2
 缺点：难学？
 入门视频（白嫖）：https://www.bilibili.com/video/BV1hp4y1k7SV?spm_id_from=333.337.search-card.all.click
 基础入门课程
@@ -76,4 +76,6 @@ let mut
     - f64 双精度
   - boolean 占用一个字节大小
   - 字符类型 char
-- 复合类型
+  
+
+for .iter 正向，.rev反向
